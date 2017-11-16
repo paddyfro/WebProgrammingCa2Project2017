@@ -1,0 +1,56 @@
+Web Programming
+jQuery, PHP and MySQL Application
+Weighting: 25%
+Completion and Moodle Upload Deadline: 10th December, 2017
+Demonstration in class to lecturer: 11th - 15th December, 2017
+This is an individual assignment.
+The project requirements are divided into two parts.
+1. Core Requirements describe the fundamental tasks that you must complete.
+2. Additional Requirements describe some more challenging tasks that you should attempt for higher grades, but not before you have completed the core requirements.
+1. Core Requirements 60%
+Build a dynamic web site that allows users to display, add and delete records from a database. Your database must incorporate two tables that are related in a one-to-many relationship.
+Here are some topic suggestions, but you may select your own topic:
+ class has many students
+ team has many players
+ salesman sells many cars
+ taxi makes many trips
+ teacher teaches many subjects
+ player plays many games
+Database
+Tables must have a primary key field of type integer which is auto-incremented and is used to identify records. Tables should have more than three fields and must demonstrate a variety of data types; at least integer, floating point, and string types. Use the InnoDB engine. You must create an ER-Diagram for your database.
+PHP Functionality
+The following functionality must be implemented:
+ list entities by category (e.g. list products by category, list students by class, list taxi runs by taxi etc..)
+ provide forms for entering details of new entities for each table (e.g. new product and category, new student and class, …)
+ delete rows from both tables
+ incorporate some calculations (e.g. average of data)
+ use “header.php” and “footer.php” files for a consistent look and feel
+ use appropriate Exception handling ( try{} … catch{} blocks ) (especially where database operations are used)
+ display error messages when appropriate
+ validate POST and GET input data
+ use appropriate HTML structures for display (e.g. <table> for lists etc…)
+jQuery Functionality
+You MUST use jQuery in your application to enhance at least one user interaction, e.g. display of content or photos, form validation, etc.
+Storyboard
+It is recommended that you create a story board (pencil & paper) showing the web pages that your system will display and the transitions between pages. Show and discuss this, and your database schema, with your lecturer before you begin implementation.
+Screencast
+Create a screencast demonstrating your PHP Application. This should be created once all functionality (core and additional) has been completed.
+Please complete and test core requirements before moving on to additional requirements.
+2. Additional Requirements 40%
+Additions
+ add UPDATE functionality for all tables
+ incorporate client side validation using regular expressions (Reg-Ex)
+ sanitise and Validate all input data, and Escape all output data (see notes)
+ incorporate images associated with table records into the website (upload your image and store the image name/file path in database)
+ add one or more related tables to your existing database, and implement relevant functionality for the new tables
+ extra marks are available for further additional technical and innovative features
+Submission
+Upload one .ZIP file in Moodle. The file should contain:
+1. all your source code in a folder with your name incorporated in the folder name (e.g. “Malone_Paddy_CA2.zip”)
+2. one .SQL export text file of your database including all tables
+3. one .PDF document containing:
+a. the ER diagram
+b. ONE page listing the functionality of your web site
+c. a link to your screencast (uploaded to YouTube)
+Note that demonstration is mandatory and no marks will be awarded in its absence.
+The following aspects will be considered in the grading scheme: functionality, aesthetics, usability, clarity, correctness, completeness, demonstrated understanding in interview.
